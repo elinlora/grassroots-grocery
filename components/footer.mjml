@@ -23,12 +23,12 @@
     </mj-section>
     <mj-section mj-class="bg-green">
       <mj-column padding-top="20px" padding-bottom="30px">
-        <mj-text align="center" font-size="10px" color="#134c43">
+        <mj-text align="center" font-size="12px" color="#134c43">
           1760 2nd Avenue NY Grassroots Grocery New York, United States, 917-497-2514
         </mj-text>
-        <mj-text align="center" padding-top="10px" font-size="10px" color="#134c43">
-          <a href="#" style="padding: 0 5px; color: #134c43; font-weight: 600;">Unsubscribe</a>
-          <a href="#" style="padding: 0 5px; color: #134c43; font-weight: 600;">Manage preferences</a>
+        <mj-text align="center" padding-top="10px" font-size="12px" color="#134c43">
+          <a href="#" style="padding: 0 2.4px; color: #134c43; font-weight: 600;">Unsubscribe</a>
+          <a href="#" style="padding: 0 2.4px; color: #134c43; font-weight: 600;">Manage preferences</a>
         </mj-text>
       </mj-column>
     </mj-section>

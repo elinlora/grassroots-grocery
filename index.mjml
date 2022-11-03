@@ -7,7 +7,7 @@
 
     <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" />
 
-    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" />
+    <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" />
 
     <mj-attributes>
 
@@ -28,25 +28,39 @@
     <mj-include path="components/header.mjml" />
     <!-- ======> / Header <====== -->
     <mj-wrapper mj-class="bg-green" padding-top="30px">
-      <mj-section background-color="#fff" border-radius="10px" padding="30px">
+      <mj-section background-color="#fff" border-radius="10px">
         <mj-column>
-          <mj-image src="img/jc.jpg" alt="Julianna" width="500px" border-radius="10px" />
-          <mj-text font-family="Poppins" font-size="16px" font-weight="500" padding-top="30px">
+          <mj-text>
+            <img src="img/jc.jpg" alt="" style="max-width: 100%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+          </mj-text>
+          <mj-text font-family="Lora" font-size="18px" font-weight="600" padding-top="45px" padding-left="20px" padding-right="20px">
             Dear Grassroots Grocery Family,
           </mj-text>
-          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="21px">
+          <mj-text font-family="Lora" padding-top="30px" font-size="15px" line-height="24px"padding-left="20px" padding-right="20px">
             I was so excited. I was feeling ready. And then I was feeling a twinge in my knee, and that ended my dream to run the NYC Marathon in support of Grassroots Grocery. Saying that I am disappointed is an understatement. I was ready, I knew that I could do it, and I knew that I had a great team - Dan, Dilani, Lauren, and Alana - on the course to support me and all of you supporting us in the community as we got ready to outrun hunger.
           </mj-text>
-          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="21px">
+          <mj-text font-family="Lora" padding-top="20px" font-size="15px" line-height="24px" padding-left="20px" padding-right="20px">
             Growing up, my parents, who emigrated from the Dominican Republic, instilled in me the importance of giving back to the community. I’ve dedicated my life to service, and running the NYC Marathon (my first!) was a way that I could show my son, Julian, that giving back to our community is the right thing to do.
           </mj-text>
-          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="21px">
+          <mj-text font-family="Lora" padding-top="20px" font-size="15px" line-height="24px" padding-left="20px" padding-right="20px">
             Even though I am not going to be able to run on Marathon Sunday, I am still going to be out there cheering the rest of the team on. I hope that you’ll join me. If you can take an extra step and contribute to our effort to root out hunger, I would be really grateful. Just $25 means you’re delivering a week’s worth of healthy food to people in need. Donate today - here - and on race day, join me in cheering the team on to outrun hunger!
           </mj-text>
-          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="40px">
+          <mj-text font-family="Lora" padding-top="20px" font-size="15px" line-height="40px" padding-left="20px" padding-right="20px">
             Love, <br>
             Juliana
           </mj-text>
+          <mj-text align="center" padding-top="30px">
+            <img src="img/logo.png" alt="" style="width: 300px;">
+          </mj-text>
+          <mj-text align="center" color="#134c43" font-size="30px" line-height="36px" padding-left="45px" padding-right="45px">
+            <span style="color: #e65501;">Running</span> just to <span style="color: #e65501;">run</span>? Without being chased by a bear? No way.
+          </mj-text>
+          <mj-text align="center" color="#134c43" font-size="15px" line-height="27px" padding-top="15px" padding-left="30px" padding-right="30px">
+            For the Grassroots Grocery NYC Marathon team,  running the NYC Marathon has been hard. But it’s been worth it because they are running to root out hunger in our community.  <span style="font-size: 18px; font-weight: 600;">Now, <a href="#" style="color: #e65501;">you can help them cross the finish line</a> - just $7,791 away from our goal!</span>
+          </mj-text>
+          <mj-button href="#" align="center" font-size="18px" padding-top="20px" padding-bottom="45px" background-color="#e65501">
+            Support our Runners!
+          </mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>
