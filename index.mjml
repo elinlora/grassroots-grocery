@@ -24,8 +24,31 @@
     <mj-style></mj-style>
   </mj-head>
   <mj-body>
-    <mj-wrapper>
-      
+    <!-- ======> Header <====== -->
+    <mj-include path="components/header.mjml" />
+    <!-- ======> / Header <====== -->
+    <mj-wrapper mj-class="bg-green" padding-top="30px">
+      <mj-section background-color="#fff" border-radius="10px" padding="30px">
+        <mj-column>
+          <mj-image src="img/jc.jpg" alt="Julianna" width="500px" border-radius="10px" />
+          <mj-text font-family="Poppins" font-size="16px" font-weight="500" padding-top="30px">
+            Dear Grassroots Grocery Family,
+          </mj-text>
+          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="21px">
+            I was so excited. I was feeling ready. And then I was feeling a twinge in my knee, and that ended my dream to run the NYC Marathon in support of Grassroots Grocery. Saying that I am disappointed is an understatement. I was ready, I knew that I could do it, and I knew that I had a great team - Dan, Dilani, Lauren, and Alana - on the course to support me and all of you supporting us in the community as we got ready to outrun hunger.
+          </mj-text>
+          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="21px">
+            Growing up, my parents, who emigrated from the Dominican Republic, instilled in me the importance of giving back to the community. I’ve dedicated my life to service, and running the NYC Marathon (my first!) was a way that I could show my son, Julian, that giving back to our community is the right thing to do.
+          </mj-text>
+          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="21px">
+            Even though I am not going to be able to run on Marathon Sunday, I am still going to be out there cheering the rest of the team on. I hope that you’ll join me. If you can take an extra step and contribute to our effort to root out hunger, I would be really grateful. Just $25 means you’re delivering a week’s worth of healthy food to people in need. Donate today - here - and on race day, join me in cheering the team on to outrun hunger!
+          </mj-text>
+          <mj-text font-family="Poppins" padding-top="20px" font-size="15px" line-height="40px">
+            Love, <br>
+            Juliana
+          </mj-text>
+        </mj-column>
+      </mj-section>
     </mj-wrapper>
 
     <!-- ======> Footer <====== -->

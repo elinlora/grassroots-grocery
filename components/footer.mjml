@@ -1,5 +1,5 @@
  <mj-section mj-class="bg-green">
-      <mj-column>
+      <mj-column padding-top="20px">
         <mj-divider border-width="2px" border-style="dashed" border-color="grey" />
       </mj-column>
     </mj-section>

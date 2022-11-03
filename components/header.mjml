@@ -1,0 +1,5 @@
+<mj-section>
+  <mj-column>
+    <mj-image src="img/header.png" alt="Header" />
+  </mj-column>
+</mj-section>
